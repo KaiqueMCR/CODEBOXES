@@ -10,4 +10,6 @@ body {
 
 main {
   @include background;
+  @include flex;
+  flex-direction: row;
 }
