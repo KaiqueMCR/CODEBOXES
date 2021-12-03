@@ -5,9 +5,9 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
-  background: linear-gradient(90deg, #3cfd72 0%, #30b69e 79.17%) center center;
-  height: 92vh;
+  @include background;
 }

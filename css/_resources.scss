@@ -1,0 +1,10 @@
+@mixin background {
+  background: linear-gradient(90deg, #3cfd72 0%, #30b69e 79.17%);
+}
+
+@mixin flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

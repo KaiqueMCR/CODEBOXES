@@ -5,12 +5,12 @@
 
 body {
   overflow-x: hidden;
+  font-family: "Roboto", sans-serif;
 }
 
 main {
-  background: -webkit-gradient(linear, left top, right top, from(#3cfd72), color-stop(79.17%, #30b69e)) center center;
-  background: linear-gradient(90deg, #3cfd72 0%, #30b69e 79.17%) center center;
-  height: 92vh;
+  background: -webkit-gradient(linear, left top, right top, from(#3cfd72), color-stop(79.17%, #30b69e));
+  background: linear-gradient(90deg, #3cfd72 0%, #30b69e 79.17%);
 }
 
 nav {
@@ -111,6 +111,54 @@ a:hover {
 .mobile-menu.active .line3 {
   -webkit-transform: rotate(45deg) translate(-5px, -7px);
           transform: rotate(45deg) translate(-5px, -7px);
+}
+
+.card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: url(../images/iphoneFrame.svg) center center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 270px;
+  height: 620px;
+}
+
+.card img {
+  width: 200px;
+}
+
+.card h2 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+.card p {
+  margin-top: 1rem;
+  width: 100px;
+  text-align: center;
+}
+
+.card button {
+  margin-top: 1rem;
+  padding: 0.75rem 2.5rem;
+  font-size: 1rem;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  background: -webkit-gradient(linear, left top, left bottom, from(#474747), to(#000000));
+  background: linear-gradient(180deg, #474747 0%, #000000 100%);
 }
 
 @media screen and (max-width: 999px) {
