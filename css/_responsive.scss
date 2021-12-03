@@ -26,3 +26,46 @@
     display: block;
   }
 }
+
+@media screen and (max-width: 600px) {
+  main {
+    flex-direction: column;
+  }
+
+  .card {
+    background: none;
+  }
+
+  .card img {
+    width: 250px;
+  }
+
+  .card h2 {
+    font-size: 3rem;
+  }
+
+  .card p {
+    font-size: 1.25rem;
+  }
+
+  .card button {
+    font-size: 2rem;
+  }
+
+  .formContainer {
+    margin-bottom: 2rem;
+  }
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    gap: 2rem;
+    height: 90vh;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .formSection .formContainer {
+    width: 85%;
+  }
+}
