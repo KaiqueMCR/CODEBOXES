@@ -1,0 +1,54 @@
+.productsSectionTitle {
+  margin-top: 2rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.productsSection {
+  @include flex;
+  flex-direction: row;
+  gap: 3rem;
+  margin-top: 2rem;
+
+  button {
+    width: 80%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    outline: none;
+    color: white;
+    @include background;
+  }
+}
+
+.products {
+  @include flex;
+  width: 100%;
+  max-width: 200px;
+  border: 1px solid rgba(0, 0, 0, 0.25);
+  border-radius: 20px;
+  padding: 1rem;
+  gap: 1rem;
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+
+  p {
+    text-decoration: line-through;
+  }
+
+  .price {
+    color: transparent;
+    background-image: linear-gradient(90deg, #3cfd72 0%, #30b69e 79.17%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  ul {
+    list-style-image: url(../images/check.svg);
+    font-size: 1rem;
+    @include flex;
+  }
+}
