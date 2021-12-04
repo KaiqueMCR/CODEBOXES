@@ -259,10 +259,10 @@ a:hover {
   }
 }
 
-@media screen and (min-width: 600px) {
+@media screen and (min-width: 601px) {
   main {
     gap: 2rem;
-    height: 90vh;
+    height: 85vh;
   }
 }
 
@@ -356,7 +356,7 @@ form input {
 }
 
 form button {
-  width: 80%;
+  width: 90%;
   padding: 1rem 0.5rem;
   font-size: 1.5rem;
   font-weight: bold;
@@ -420,6 +420,7 @@ input:focus ~ .underline::after {
       flex-direction: row;
   gap: 3rem;
   margin-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .productsSection button {
