@@ -262,7 +262,7 @@ a:hover {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    padding: 0 !important;
+    padding: 2rem 0 !important;
     margin-top: 2rem !important;
     width: 100% !important;
   }
@@ -578,5 +578,10 @@ input:focus ~ .underline::after {
 
 .commentImg img {
   width: 100px;
+}
+
+footer {
+  text-align: center;
+  padding: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
