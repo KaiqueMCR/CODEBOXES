@@ -1,3 +1,7 @@
-# Mobile Navbar Menu
+# CodeBoxes
 
-Como Fazer um Menu Navbar Responsivo - Tutorial HTML, CSS e JavaScript para Iniciantes. [Veja mais](https://www.youtube.com/watch?v=bHRXRYTppHM&).
+## This is a one page course sales project based on:
+
+- HTML
+- CSS (SASS)
+- Javascript
