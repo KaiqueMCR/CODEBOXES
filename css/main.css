@@ -67,15 +67,17 @@ nav img {
   width: 190px;
 }
 
-a {
+header a {
   color: black;
   text-decoration: none;
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  padding: 5px;
 }
 
-a:hover {
-  opacity: 0.7;
+header a:hover {
+  background-color: #c0c0c044;
+  border-radius: 10px;
 }
 
 .nav-list {
@@ -83,11 +85,11 @@ a:hover {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  gap: 1rem;
 }
 
 .nav-list li {
   letter-spacing: 3px;
-  margin-left: 32px;
 }
 
 .nav-list.active {
@@ -199,6 +201,13 @@ a:hover {
   background: linear-gradient(180deg, #474747 0%, #000000 100%);
 }
 
+.card button:hover {
+  background: -webkit-gradient(linear, left top, left bottom, from(#000000), to(#474747));
+  background: linear-gradient(180deg, #000000 0%, #474747 100%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
 @media screen and (max-width: 999px) {
   .nav-list {
     position: absolute;
@@ -298,10 +307,6 @@ a:hover {
     gap: 2rem;
     height: 85vh;
   }
-  .feedbackSection .comments:hover {
-    -webkit-box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
-            box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
-  }
 }
 
 @media screen and (max-width: 400px) {
@@ -360,10 +365,12 @@ h2 {
           justify-content: center;
   background: #ffffff;
   padding: 1rem;
-  width: 90%;
+  width: 95%;
   max-width: 350px;
   border-radius: 20px;
   gap: 1rem;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .formContainer h3 {
@@ -386,12 +393,12 @@ form {
       -ms-flex-pack: center;
           justify-content: center;
   gap: 2rem;
-  width: 90%;
+  width: 100%;
 }
 
 form .inputField {
   font-size: 1rem;
-  width: 80%;
+  width: 90%;
   position: relative;
 }
 
@@ -414,6 +421,16 @@ form button {
   color: white;
   background: -webkit-gradient(linear, left top, right top, from(#3cfd72), color-stop(79.17%, #30b69e));
   background: linear-gradient(90deg, #3cfd72 0%, #30b69e 79.17%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+form button:hover {
+  background: -webkit-gradient(linear, left top, right top, from(#30b69e), color-stop(79.17%, #3cfd72));
+  background: linear-gradient(90deg, #30b69e 0%, #3cfd72 79.17%);
+  width: calc(90% + 10px);
 }
 
 .underline::before {
@@ -483,6 +500,12 @@ input:focus ~ .underline::after {
   color: white;
   background: -webkit-gradient(linear, left top, right top, from(#3cfd72), color-stop(79.17%, #30b69e));
   background: linear-gradient(90deg, #3cfd72 0%, #30b69e 79.17%);
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.productsSection button:hover {
+  opacity: 0.9;
 }
 
 .products {
@@ -505,8 +528,10 @@ input:focus ~ .underline::after {
   border-radius: 20px;
   padding: 1rem;
   gap: 1rem;
-  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
-          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  -webkit-box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .products p {
@@ -539,6 +564,12 @@ input:focus ~ .underline::after {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+}
+
+.products:hover {
+  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.25);
+  max-width: 210px;
 }
 
 .feedbackSectionTitle h2 {
@@ -582,6 +613,11 @@ input:focus ~ .underline::after {
   border-radius: 20px;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.comments:hover {
+  -webkit-box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.25);
 }
 
 .commentImg {
