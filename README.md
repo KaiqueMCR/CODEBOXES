@@ -6,7 +6,7 @@
 ![GitHub](https://img.shields.io/github/license/KaiqueMCR/CodeBoxes)
 ![GitHub repo size](https://img.shields.io/github/repo-size/KaiqueMCR/CodeBoxes)
 ![GitHub issues](https://img.shields.io/github/issues/KaiqueMCR/CodeBoxes)
-![GitHub forks](https://img.shields.io/github/forks/KaiqueMCR/BBQ-Meter)
+![GitHub forks](https://img.shields.io/github/forks/KaiqueMCR/CodeBoxes)
 ![GitHub stars](https://img.shields.io/github/stars/KaiqueMCR/CodeBoxes)
 
 </div>
